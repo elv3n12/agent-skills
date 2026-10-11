@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sprite Animation Generator"
+  short_description: "Generate and validate raster sprite animations"
+  default_prompt: "Use $sprite-animation-generator to create a stable directional walk-cycle sprite sheet from my character art."
