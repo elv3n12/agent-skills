@@ -1,0 +1,4 @@
+interface:
+  display_name: "BeatGrove Building Generator"
+  short_description: "Create and pack painted isometric biome buildings"
+  default_prompt: "Use $beatgrove-building-generator to create a biome building that matches BeatGrove art and runtime requirements."
