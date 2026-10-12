@@ -7,6 +7,10 @@ description: Create, refine and integrate BeatGrove painted isometric building s
 
 Create new architecture that belongs in BeatGrove: detailed painted miniature buildings with consistent lighting, camera, scale and readable entrances. The Soundmap repository contains the BeatGrove application.
 
+## Choose the workflow
+
+For a contributor requesting an artist building in ordinary ChatGPT, read [contributors.md](references/contributors.md) and the art reference. Generate and export without requiring repository access. Use the repository workflow below only when packing/integration is requested. Source PNG size is not runtime file size; use the bundled export helper when file processing is available.
+
 ## Find the source of truth
 
 Read the application's applicable `AGENTS.md`, decision log and current building code. Confirm the authoritative branch/worktree before editing; a chat checkout can be detached or stale. Follow the user's branch choice; BeatGrove commonly uses `preprod`. Keep unrelated changes unstaged. Do not push or deploy without authorization.

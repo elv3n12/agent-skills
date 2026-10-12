@@ -42,3 +42,15 @@ The read-only validator uses Sharp from your BeatGrove/Soundmap checkout:
 ```sh
 node path/to/beatgrove-building-generator/scripts/validate_buildings.mjs --repo /path/to/soundmap
 ```
+
+## BeatGrove Building Studio plugin
+
+A skills-only ChatGPT plugin packages the building workflow and visual references. The contributor mode generates an artist-inspired building, preserves its source master, and uses available file-processing tools to export a compact transparent PNG and lossless WebP. It does not require a hosted server or BeatGrove repository access.
+
+Build the private plugin archive from the canonical skill files:
+
+```sh
+python scripts/package-beatgrove-plugin.py --output /path/to/beatgrove-building-studio.zip
+```
+
+Plugin source is in `plugins/beatgrove-building-studio`. Package acceptance does not prove installed image-generation/export behavior; host tools must be available.

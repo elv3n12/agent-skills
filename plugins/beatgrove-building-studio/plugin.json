@@ -1,0 +1,26 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "beatgrove-building-studio",
+  "version": "0.1.0",
+  "description": "Create painted isometric artist and biome buildings with BeatGrove visual references and lightweight transparent runtime exports.",
+  "author": { "name": "elv3n12" },
+  "repository": "https://github.com/elv3n12/agent-skills",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "BeatGrove Building Studio",
+        "shortDescription": "Painted music-map buildings",
+        "longDescription": "Generate artist-inspired and biome-specific buildings in BeatGrove's detailed painted isometric style. Includes visual references, contributor prompts, transparent PNG/WebP export scripts and technical integration guidance. Uses the host's image and file-processing capabilities; no server or repository access is required for contributor artwork.",
+        "developerName": "elv3n12",
+        "category": "Productivity",
+        "logo": "./assets/icon.webp",
+        "composerIcon": "./assets/icon.webp",
+        "defaultPrompt": [
+          "Create a compact painted isometric music lodge representing my chosen artist, then export a lightweight transparent PNG and WebP.",
+          "Create a small decaying house for a BeatGrove biome using the bundled art references.",
+          "Check my building's transparency, miniature legibility and runtime file size."
+        ]
+      }
+    }
+  }
+}
