@@ -54,3 +54,5 @@ python scripts/package-beatgrove-plugin.py --output /path/to/beatgrove-building-
 ```
 
 Plugin source is in `plugins/beatgrove-building-studio`. Package acceptance does not prove installed image-generation/export behavior; host tools must be available.
+
+Building-generator instructions and scripts use the MIT License. The bundled reference images are supplied only to guide BeatGrove building creation; they are not covered by MIT. See [the building skill licence](skills/beatgrove-building-generator/LICENSE.md).
