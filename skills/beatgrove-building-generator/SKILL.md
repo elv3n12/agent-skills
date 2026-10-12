@@ -1,6 +1,6 @@
 ---
 name: beatgrove-building-generator
-description: Create, refine and integrate BeatGrove painted isometric building sprites for biomes or artists, including humble houses, transparent artwork, doorway anchors, runtime packing and stable biome assignment. Use for BeatGrove building art, not terrain, props, character animation or generic architectural renders.
+description: Create, refine, export and integrate painted isometric buildings for BeatGrove (Soundmap). Use when asked for an artist house or music lodge, a biome cottage or humble hut, a decayed building, transparent building artwork, a smaller PNG or WebP export of a BeatGrove building, doorway anchors, or biome building assignment. Preserve the established art direction and miniature readability. Covers contributor artwork without repository access and runtime packing/integration when requested. Do not use for terrain, standalone props, character animation, generic architectural renders or unrelated image compression.
 ---
 
 # BeatGrove Building Generator

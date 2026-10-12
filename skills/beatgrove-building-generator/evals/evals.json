@@ -1,0 +1,23 @@
+{
+  "skill_name": "beatgrove-building-generator",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Create a BeatGrove swamp artist house for a contributor using ChatGPT without repository access. It should be a poor, decaying bayou shack with a transparent background.",
+      "expected_output": "Use contributor and art-direction references; inspect a style reference; create isolated painted art with readable entrance and margins using available image tools. State a missing tool honestly; repository access is unnecessary.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "My approved BeatGrove house source PNG is 1.6 MB. Produce a compact transparent export while retaining the original.",
+      "expected_output": "Use the contributor export helper when processing tools are available; retain the master, inspect transparency and report actual dimensions and bytes. Do not promise a byte limit from prompting alone.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Integrate an approved forest house into the BeatGrove world and keep artist overrides intact.",
+      "expected_output": "Inspect the authoritative checkout and current runtime; transform a measured doorway anchor; add the forest pool entry; verify stable selection and override precedence, then perform required project checks. Distinguish structural validation from live visual review.",
+      "files": []
+    }
+  ]
+}

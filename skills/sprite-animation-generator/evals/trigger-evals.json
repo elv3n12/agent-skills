@@ -1,0 +1,82 @@
+[
+  {
+    "query": "Animate this painted game avatar into a four-direction walking sprite sheet while preserving its costume.",
+    "should_trigger": true
+  },
+  {
+    "query": "The NPC feet slide in the walk cycle and the torso jumps at the loop seam. Repair the animation.",
+    "should_trigger": true
+  },
+  {
+    "query": "I have separated torso, thighs, calves and arms. Assemble a raster walk cycle using measured joints.",
+    "should_trigger": true
+  },
+  {
+    "query": "Pack these reviewed character poses into 128-pixel frames with one stable origin and a transparent background.",
+    "should_trigger": true
+  },
+  {
+    "query": "Our northeast hero loses its rear arm behind the shoulder socket. Fix the sprite layering and review each frame.",
+    "should_trigger": true
+  },
+  {
+    "query": "Create looping directional previews and a contact sheet for these walking character sprites.",
+    "should_trigger": true
+  },
+  {
+    "query": "The sheet has sixteen columns but only twelve moving frames. Validate the animation grid against the manifest.",
+    "should_trigger": true
+  },
+  {
+    "query": "Repair the floating knee and stretched calf in my 2D character sprite animation.",
+    "should_trigger": true
+  },
+  {
+    "query": "Je veux une animation de marche pour cet avatar peint, avec des pieds stables et une boucle fluide.",
+    "should_trigger": true
+  },
+  {
+    "query": "Mirror the reviewed west-facing walk cycle to east and check asymmetrical costume details at game size.",
+    "should_trigger": true
+  },
+  {
+    "query": "Create a static painted BeatGrove forest artist house with a readable doorway.",
+    "should_trigger": false
+  },
+  {
+    "query": "Make a Blender skeletal walk animation and export an FBX rig, without rendering any raster sprites.",
+    "should_trigger": false
+  },
+  {
+    "query": "Animate the landing page logo with CSS keyframes and reduced-motion support.",
+    "should_trigger": false
+  },
+  {
+    "query": "Generate a single unanimated portrait of a game NPC wearing a blue coat.",
+    "should_trigger": false
+  },
+  {
+    "query": "Optimize the PNG file size of a BeatGrove swamp building and measure its doorway anchor.",
+    "should_trigger": false
+  },
+  {
+    "query": "Implement a WebGL water shader with flowing ripples for our map.",
+    "should_trigger": false
+  },
+  {
+    "query": "Create seamless raster terrain tiles for snow and grass biomes.",
+    "should_trigger": false
+  },
+  {
+    "query": "Add multiplayer movement interpolation to the server. Leave all character sprites unchanged.",
+    "should_trigger": false
+  },
+  {
+    "query": "Create an SVG loading spinner that loops smoothly on our website.",
+    "should_trigger": false
+  },
+  {
+    "query": "Draw twelve unrelated character concept illustrations for a casting moodboard; no animation sequence is needed.",
+    "should_trigger": false
+  }
+]

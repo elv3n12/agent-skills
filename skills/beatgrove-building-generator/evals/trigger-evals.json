@@ -1,0 +1,82 @@
+[
+  {
+    "query": "Create an isolated isometric music lodge representing Bjork for the BeatGrove map, with transparent margins and no text.",
+    "should_trigger": true
+  },
+  {
+    "query": "I need ten pauvres maisonnettes for BeatGrove biomes. Make the swamp and wasteland houses rusty and partially ruined.",
+    "should_trigger": true
+  },
+  {
+    "query": "This BeatGrove artist-house PNG is 1.6 MB. Export a compact transparent version without losing the painted style.",
+    "should_trigger": true
+  },
+  {
+    "query": "Add this approved forest treehouse to Soundmap and randomly assign it to forest artists while keeping manual choices.",
+    "should_trigger": true
+  },
+  {
+    "query": "Measure the doorway anchor in this BeatGrove building source before packing it into the game canvas.",
+    "should_trigger": true
+  },
+  {
+    "query": "Make the urban BeatGrove Haussmann building dirtier, with broken shutters and graffiti, using our existing art direction.",
+    "should_trigger": true
+  },
+  {
+    "query": "Generate a snow biome cottage for BeatGrove. I am a contributor using ChatGPT and cannot access the repository.",
+    "should_trigger": true
+  },
+  {
+    "query": "The new BeatGrove houses show in admin but never appear in World. Check their biome pools and selection precedence.",
+    "should_trigger": true
+  },
+  {
+    "query": "Inspect the transparent margins and miniature readability of these approved BeatGrove building sprites.",
+    "should_trigger": true
+  },
+  {
+    "query": "Prepare a lossless WebP and small PNG of this desert BeatGrove hut, preserving my original source file.",
+    "should_trigger": true
+  },
+  {
+    "query": "Create a forest terrain tile for BeatGrove with a seamless grass texture and dirt paths.",
+    "should_trigger": false
+  },
+  {
+    "query": "Animate our BeatGrove avatar walking northeast. Its feet slide and the rear arm disappears.",
+    "should_trigger": false
+  },
+  {
+    "query": "Design a photorealistic architectural render of my planned seaside villa for a property brochure.",
+    "should_trigger": false
+  },
+  {
+    "query": "Compress these product photography PNGs to WebP for our online shop.",
+    "should_trigger": false
+  },
+  {
+    "query": "Build an admin page that lets me filter artist buildings by biome; use the existing assets without creating or packing artwork.",
+    "should_trigger": false
+  },
+  {
+    "query": "Create standalone rusty barrels and a broken bench for the BeatGrove wasteland biome.",
+    "should_trigger": false
+  },
+  {
+    "query": "Write a research biography of the artist Bjork for our BeatGrove catalogue.",
+    "should_trigger": false
+  },
+  {
+    "query": "Implement CSS animation of a house icon on a real estate website.",
+    "should_trigger": false
+  },
+  {
+    "query": "Generate a 3D skyscraper mesh with PBR materials for a Blender scene.",
+    "should_trigger": false
+  },
+  {
+    "query": "Create a character portrait of a swamp musician in BeatGrove painted style.",
+    "should_trigger": false
+  }
+]

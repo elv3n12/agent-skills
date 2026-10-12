@@ -1,6 +1,6 @@
 ---
 name: sprite-animation-generator
-description: Generate, repair, and validate 2D raster sprite-sheet animations from character art or separated body parts. Use for directional walk cycles, flipbook loops, joint anchoring, occlusion, stable origins, runtime packing, and game-scale visual QA. Do not use for native 3D animation or runtime skeletal rigs unless their rendered output must become raster sheets.
+description: Create, repair and validate 2D raster sprite-sheet animations from character artwork or separated body parts. Use when asked to animate a game character, avatar or NPC into directional walk cycles or flipbook loops; fix sliding feet, floating limbs, jitter or a broken loop seam; or pack animation frames with stable origins, joint anchors and occlusion. Includes game-scale visual review and runtime sheet validation. Do not use for static building sprites, website CSS/SVG animation, native 3D animation or skeletal rigs unless their rendered output must become raster frames.
 ---
 
 # Sprite Animation Generator

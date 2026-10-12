@@ -1,0 +1,23 @@
+{
+  "skill_name": "sprite-animation-generator",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Repair a painted NPC walking sprite sheet whose torso jumps whenever a foot lifts and whose loop seam is visible.",
+      "expected_output": "Inspect the sheet and runtime contract; diagnose per-frame grounding, preserve one origin and character identity; inspect contact, passing and seam poses in a looping preview. Do not equate structural checks with visual acceptance.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Create a four-direction walk cycle from separated painted character limbs.",
+      "expected_output": "Measure joints from artwork, prove one canonical gait with opposite leg phases and arm counter-swing, maintain limb lengths and near/far ordering, then propagate and validate at runtime scale.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Pack reviewed walk poses into a sheet with 128x128 frames, 16 columns, four rows and 12 motion frames starting at column 4.",
+      "expected_output": "Preserve source poses and stable origin; confirm row directions and timing; pack and run structural validation with the supplied contract; inspect motion preview and report any unavailable live-game review.",
+      "files": []
+    }
+  ]
+}

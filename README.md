@@ -1,6 +1,11 @@
 # Agent Skills
 
-Reusable skills for coding agents.
+Reusable Agent Skills for Claude, Codex and other compatible agents. Each skill lives in `skills/<name>/SKILL.md`; its YAML `name` and `description` are the discovery metadata. Install a skill before expecting an agent to discover it.
+
+| Skill | Use it for | Entry point |
+| --- | --- | --- |
+| `beatgrove-building-generator` | BeatGrove artist houses, biome architecture, transparent PNG/WebP exports and building integration | [Building skill](skills/beatgrove-building-generator/SKILL.md) |
+| `sprite-animation-generator` | Game character walk cycles, sprite-sheet packing, motion repair and animation QA | [Animation skill](skills/sprite-animation-generator/SKILL.md) |
 
 ## Sprite Animation Generator
 
@@ -56,3 +61,18 @@ python scripts/package-beatgrove-plugin.py --output /path/to/beatgrove-building-
 Plugin source is in `plugins/beatgrove-building-studio`. Package acceptance does not prove installed image-generation/export behavior; host tools must be available.
 
 Building-generator instructions and scripts use the MIT License. The bundled reference images are supplied only to guide BeatGrove building creation; they are not covered by MIT. See [the building skill licence](skills/beatgrove-building-generator/LICENSE.md).
+
+## Discovery and validation
+
+The skill layout and descriptions follow [Anthropic's skill-creator guidance](https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md): concise entry points, explicit use contexts and linked references loaded only when needed. Existing skill names remain stable. `agents/openai.yaml` supplies Codex UI metadata; it does not replace `SKILL.md` discovery metadata.
+
+Each skill has `evals/trigger-evals.json` containing ten positive requests and ten nearby requests that should not trigger it, plus `evals/evals.json` with three task scenarios. These are review fixtures, not recorded benchmark results. Trigger examples include contributor requests, export size, animation defects and boundaries between the two skills. To measure Claude triggering, run the description optimizer from Anthropic's skill-creator tooling in an environment with the Claude CLI, using a held-out split. Compare behavioral outputs separately with and without the skill.
+
+Run the repository checks with Python 3.11 or newer:
+
+```sh
+python -m pip install 'PyYAML>=6,<7'
+python scripts/validate-skills.py
+```
+
+CI checks frontmatter, folder/name agreement, local reference links, Codex metadata and evaluation fixtures. This validates discoverable packaging; it does not prove a host's trigger rate, artwork quality or external directory indexing. Asset validators and rendered review remain part of each skill's own workflow.
